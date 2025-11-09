@@ -42,3 +42,26 @@ img {
 .header .under-tap .left-under-tap{
     flex-basis: 40%;
 }
+/* Second sectoin */
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#paernt  {
+    display: flex;
+    gap: 32px;
+    max-width: 960px; /* Prevents container from becoming too wide on large screens */
+    margin: 0 auto;
+}
+.cards .product-card {
+   flex: 1 16%;
+   overflow: hidden;
+}
+.card-image {
+    border: 5px red solid;
+    border-radius: 10px;
+}
+
+/* End of second section */
+
