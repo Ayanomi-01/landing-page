@@ -47,6 +47,7 @@ img {
     display:flex;
     flex-wrap: wrap;
     text-align: center;
+    margin: 32px 0;
 }
 #paernt  {
     display: flex;
@@ -64,4 +65,18 @@ img {
 }
 
 /* End of second section */
+
+/* Quote Section */
+.qote {
+    padding: 36px 0;
+  background-color: #E5E7EB;
+}
+.qote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+/* End on Quote Section */
 
