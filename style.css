@@ -14,7 +14,8 @@ li {
 }
 img {
     width: 250px;
-    height: 250px;
+    max-height: 250px;
+    min-height: 100px;
 }
 .header {
     display: flex;
@@ -60,7 +61,7 @@ img {
    overflow: hidden;
 }
 .card-image {
-    border: 5px red solid;
+    border: 3px red solid;
     border-radius: 10px;
 }
 
@@ -72,11 +73,40 @@ img {
   background-color: #E5E7EB;
 }
 .qote p {
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
-    font-weight: 900;
     margin-bottom: 0;
 }
 
 /* End on Quote Section */
 
+.call-sec {
+    margin: 64px 0 ;
+}
+.call-sec .conta {
+    background-color: #3882F9;
+    padding: 64px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-between;
+     
+}
+button {
+    background-color: #3882F9;
+    border-color: #F9FAF8;
+    padding: 8px 32px;
+    color: aliceblue;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.call-sec p , h2 {
+    margin: 0
+    ;
+}
+
+/* Footer */
+
+
+/* End of footer */
